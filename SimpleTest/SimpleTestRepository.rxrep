@@ -1,0 +1,109 @@
+﻿<repository
+id="efcc9493-1dcd-470a-8b35-b8f86840317e"
+name="SimpleTestRepository"
+rxversion="8.3">
+	<codegen
+	classname="SimpleTestRepository"
+	namespace="SimpleTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b103164c-aa54-4de9-9519-6c3b226abc52"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="49e25fe6-714d-4ae8-9f52-23dbdaa54f23"
+		isrooted="True"
+		name="EdgewordsShopECommerceDemoSiteFor"
+		refpath="/dom[@domain='www.edgewordstraining.co.uk']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d1d968b3-5707-43d7-8c04-417e6621b28a"
+			name="WoocommerceProductSearchField0"
+			refimgid="32afc9fd-b386-4f80-ba66-565d469bb8e7"
+			refpath="/dom[@domain='www.edgewordstraining.co.uk']//input[#'woocommerce-product-search-field-0']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.edgewordstraining.co.uk']//input[#'woocommerce-product-search-field-0']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="9e9057fc-3f7c-41c9-a72a-1396a03a176c"
+			name="AddToCart"
+			refimgid="d27833e6-5de8-40c6-a238-012d28aec394"
+			refpath="/dom[@domain='www.edgewordstraining.co.uk']//div[#'product-29']/div[2]/form/button[@innertext='Add to cart']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.edgewordstraining.co.uk']//div[#'product-29']/?/?/form[@action='https://www.edgewordstraining.co.uk/demo-site/product/cap/']/button[@innertext='Add to cart']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="fdde1874-ce36-4178-ae9a-cd44999ae1e2"
+			name="ViewCart"
+			refimgid="90e3e87d-3103-4764-ab8a-5da9f5ce959d"
+			refpath="/dom[@domain='www.edgewordstraining.co.uk']//div[#'content']/div/div[1]/div/a[@innertext='View cart']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.edgewordstraining.co.uk']//div[#'content']//div[@innertext~'^\ &#8220;Cap&#8221;\ has\ been\ added\ to\ ']/a[@innertext='View cart']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="55220de4-0ba5-4086-9d9d-01e5c199cec4"
+			name="SomeATag"
+			refimgid="aae73d8b-d1c5-4d5d-b776-65d7d6e5c3ad"
+			refpath="/dom[@domain='www.edgewordstraining.co.uk']//article[#'post-5']/div/div/form/table/tbody/tr[1]/td[1]/a[@innertext='×']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.edgewordstraining.co.uk']//article[#'post-5']//form[@action='https://www.edgewordstraining.co.uk/demo-site/cart/']/table/tbody/tr[1]/td[1]/a[@innertext='&#215;']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9239df16-5f58-48b2-8360-636a9e131d0a"
+			name="ATagReturnToShop"
+			refimgid="25355d37-f750-41e4-a2f9-4aa50a5714b4"
+			refpath="/dom[@domain='www.edgewordstraining.co.uk']//article[#'post-5']/div/div[2]/p[2]/a[@innertext='Return to shop']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.edgewordstraining.co.uk']//article[#'post-5']/div//a[@innertext='Return to shop']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="bc2f828f-b692-4d21-802e-3c7f6f167c74"
+			name="Home"
+			refimgid="8801f6b2-5b2c-46ef-9326-ee704887b80f"
+			refpath="/dom[@domain='www.edgewordstraining.co.uk']//li[#'menu-item-42']/a[@innertext='Home']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.edgewordstraining.co.uk']//li[#'menu-item-42']/a[@innertext='Home']
+			</item>
+			<basepath>
+				/dom[@domain='www.edgewordstraining.co.uk']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="541f018c-9465-4cb5-88c9-5c924f538232"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Recording2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="SimpleTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="This is a new module"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="67febfc0-337c-440b-8f60-333c77a9a3a7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="efcc9493-1dcd-470a-8b35-b8f86840317e"
+	name="SimpleTestRepository"
+	relativepath="SimpleTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="SimpleTestRepository"
+		namespace="SimpleTest">
+		</codegen>
+		<rootfolder
+		id="b103164c-aa54-4de9-9519-6c3b226abc52"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

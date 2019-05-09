@@ -22,7 +22,7 @@ namespace SimpleTest
     /// <summary>
     /// The class representing the SimpleTestRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     [RepositoryFolder("b103164c-aa54-4de9-9519-6c3b226abc52")]
     public partial class SimpleTestRepository : RepoGenBaseFolder
     {
@@ -76,7 +76,7 @@ namespace SimpleTest
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class SimpleTestRepositoryFolders
     {
         /// <summary>

@@ -1,7 +1,8 @@
-﻿<repository
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="efcc9493-1dcd-470a-8b35-b8f86840317e"
 name="SimpleTestRepository"
-rxversion="8.3">
+rxversion="9.0">
 	<codegen
 	classname="SimpleTestRepository"
 	namespace="SimpleTest">

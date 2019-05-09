@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <modulegroupdoc
-rxversion="8.3">
-  <testsuiteentryhierarchy>
-    <flatlistofchildren>
-      <modulegroups
-      name="SimpleTest"
-      id="ba9b975a-32a0-48c3-bbf3-68db92c86929"/>
-    </flatlistofchildren>
-    <childhierarchy>
-      <modulegroups
-      name="SimpleTest"
-      id="ba9b975a-32a0-48c3-bbf3-68db92c86929"/>
-    </childhierarchy>
-  </testsuiteentryhierarchy>
+rxversion="9.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="ba9b975a-32a0-48c3-bbf3-68db92c86929"
+			name="SimpleTest">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="ba9b975a-32a0-48c3-bbf3-68db92c86929"
+			name="SimpleTest">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
 </modulegroupdoc>

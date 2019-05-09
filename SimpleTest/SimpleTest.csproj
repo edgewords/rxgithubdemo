@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>SimpleTest</RootNamespace>
     <AssemblyName>SimpleTest</AssemblyName>
-    <RanorexVersion>8.3</RanorexVersion>
+    <RanorexVersion>9.0</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>3e9f42c2-58e4-4227-bd5d-570107e881cd</projectdefaultrepository>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>

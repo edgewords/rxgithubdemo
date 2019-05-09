@@ -58,7 +58,7 @@ namespace SimpleTest
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,7 +70,7 @@ namespace SimpleTest
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -79,7 +79,7 @@ namespace SimpleTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.edgewordstraining.co.uk/demo-site/' with browser 'Chrome' in normal mode .", new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.edgewordstraining.co.uk/demo-site/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
             Host.Current.OpenBrowser("https://www.edgewordstraining.co.uk/demo-site/", "Chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             

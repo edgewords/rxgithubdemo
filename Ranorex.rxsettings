@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="8.3">
+rxversion="9.0">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -406,6 +406,24 @@ rxversion="8.3">
 	<TestExecution.CopyRuntimeToOutput>
 		True
 	</TestExecution.CopyRuntimeToOutput>
+	<vbcodegenconfig.generate.root.namespace>
+		True
+	</vbcodegenconfig.generate.root.namespace>
+	<TestExecution.RemoteAgentOptimizations>
+		ReuseDirectoryForExecution, DetectChangesOnUpload
+	</TestExecution.RemoteAgentOptimizations>
+	<perftracing.tracers>
+		None
+	</perftracing.tracers>
+	<perftracing.directory>
+		%MyDocuments%\Ranorex\TraceLogs
+	</perftracing.directory>
+	<mouse.interpolation.mode>
+		Optimized
+	</mouse.interpolation.mode>
+	<mouse.disableonaction>
+		True
+	</mouse.disableonaction>
 	<plugins.win32.EnableBasicDelphiSupport>
 		True
 	</plugins.win32.EnableBasicDelphiSupport>
@@ -419,6 +437,9 @@ rxversion="8.3">
 	</plugins.win32.ProcessWhitelist>
 	<plugins.win32.ProcessBlacklist>
 	</plugins.win32.ProcessBlacklist>
+	<plugin.delphi.enabled>
+		True
+	</plugin.delphi.enabled>
 	<plugins.msaa.FilterEnabled>
 		True
 	</plugins.msaa.FilterEnabled>
@@ -443,6 +464,12 @@ rxversion="8.3">
 	<plugins.web.EnableIeAddon>
 		True
 	</plugins.web.EnableIeAddon>
+	<plugins.web.DynamicIdDetection>
+		True
+	</plugins.web.DynamicIdDetection>
+	<plugins.web.EnableRxPathJs>
+		True
+	</plugins.web.EnableRxPathJs>
 	<plugins.wpfnative.enablewpfdebug>
 		False
 	</plugins.wpfnative.enablewpfdebug>
@@ -500,6 +527,12 @@ rxversion="8.3">
 	<plugins.wpf.EnableWinAppFrameFiltering>
 		True
 	</plugins.wpf.EnableWinAppFrameFiltering>
+	<plugin.rawtext.captureansi>
+		True
+	</plugin.rawtext.captureansi>
+	<plugin.rawtext.includetextinrectcomparison>
+		False
+	</plugin.rawtext.includetextinrectcomparison>
 	<plugins.java.classnames>
 	</plugins.java.classnames>
 	<plugins.java.swtlegacymode>
@@ -511,6 +544,9 @@ rxversion="8.3">
 	<plugins.java.fxfilter>
 		True
 	</plugins.java.fxfilter>
+	<plugins.java.refreshwindow>
+		False
+	</plugins.java.refreshwindow>
 	<plugins.qt.legacymode>
 		False
 	</plugins.qt.legacymode>
